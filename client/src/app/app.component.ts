@@ -18,7 +18,7 @@ this.getusers();
         }
 
     getusers(){
-      this.http.get('https://localhost:5001/API/User').subscribe(response =>
+      this.http.get('https://localhost:5001/API/Users').subscribe(response =>
       {this.users =response;},
     error =>{console.error(error);})
 

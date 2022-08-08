@@ -9,6 +9,9 @@ namespace ApI.Entiteis
     {
         public int Id { get; set; }
         public string UserName { get; set; }
+
+        public byte[] PpasswordHash {get; set; }
+         public byte[] PasswordSalt {get; set; }
        
 
 
